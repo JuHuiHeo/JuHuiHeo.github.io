@@ -13,9 +13,9 @@ module.exports = {
   author: {
     name: `허주희`,
     bio: {
-      role: `열심히 사는 대학생`,
+      role: `코딩하는`,
       description: ['전공 공부도 열심히 하고', '스터디도 열심히 하고', '공모전도 열심히 하고'],
-      thumbnail: 'sample.png', // Path to the image in the 'asset' folder
+      thumbnail: '250.gif', // Path to the image in the 'asset' folder
     },
     social: {
       github: ``, // `https://github.com/zoomKoding`,
