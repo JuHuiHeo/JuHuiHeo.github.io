@@ -95,8 +95,7 @@ Muzi가 나간후 다시 들어올 때, Prodo 라는 닉네임으로 들어올 �
                 new_record = word.split(' ')
         ```
         
-        ![new_record의 형태](%5BPython%5D%20%E1%84%8B%202c971/Untitled.png)
-        
+        ![new_record의 형태](Untitled.png)
         new_record의 형태
         
         ---
