@@ -3,7 +3,7 @@ module.exports = {
   description: `쭈E로그`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
   siteUrl: `https://github.com/JuHuiHeo/JuHuiHeo.github.io`,
-  ogImage: `/AREmoji.png`, // Path to your in the 'static' folder
+  ogImage: `/new_og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
       repo: ``, // `zoomkoding/zoomkoding-gatsby-blog`,
@@ -15,7 +15,7 @@ module.exports = {
     bio: {
       role: `코딩하는`,
       description: ['전공 공부도 열심히 하고', '스터디도 열심히 하고', '공모전도 열심히 하고'],
-      thumbnail: '250.gif', // Path to the image in the 'asset' folder
+      thumbnail: 'AREmoji.gif', // Path to the image in the 'asset' folder
     },
     social: {
       github: `https://github.com/JuHuiHeo/JuHuiHeo.github.io`, // `https://github.com/zoomKoding`,
