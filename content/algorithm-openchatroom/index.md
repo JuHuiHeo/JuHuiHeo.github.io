@@ -7,7 +7,7 @@ tags: 프로그래머스 Python Algorithm
 categories: Algorithm Python
 ---
 
-## 문제 설명
+## 🤔문제 설명
 
 카카오톡 오픈채팅방에서는 친구가 아닌 사람들과 대화를 할 수 있는데, 본래 닉네임이 아닌 가상의 닉네임을 사용하여 채팅방에 들어갈 수 있다.
 
@@ -46,7 +46,7 @@ Muzi가 나간후 다시 들어올 때, Prodo 라는 닉네임으로 들어올 �
 
 ---
 
-## 제한사항
+## 😎제한사항
 
 - record는 다음과 같은 문자열이 담긴 배열이며, 길이는 `1` 이상 `100,000` 이하이다.
 - 다음은 record에 담긴 문자열에 대한 설명이다.
@@ -62,7 +62,7 @@ Muzi가 나간후 다시 들어올 때, Prodo 라는 닉네임으로 들어올 �
 
 ---
 
-## 입출력 예
+## 😊입출력 예
 
 | record | result |
 | --- | --- |
@@ -70,9 +70,9 @@ Muzi가 나간후 다시 들어올 때, Prodo 라는 닉네임으로 들어올 �
 
 ---
 
-## 풀이
+## 🥳풀이
 
-### 🤍**생각의 흐름**
+### 💜**생각의 흐름**
     1. **주어진 `record` 공백 기준으로 나누기**
         
         <aside>
@@ -123,25 +123,25 @@ Muzi가 나간후 다시 들어올 때, Prodo 라는 닉네임으로 들어올 �
         
         ---
         
-        1. **문장 출력하기**
+    3. **문장 출력하기**
             
-            이제 문장만 출력하면 된다! 출력의 경우 ‘Change’ 명령어는 해당되지 않으므로 ‘Enter’와 ‘Leave’에 해당하는 문장만 출력해준다.
+        이제 문장만 출력하면 된다! 출력의 경우 ‘Change’ 명령어는 해당되지 않으므로 ‘Enter’와 ‘Leave’에 해당하는 문장만 출력해준다.
             
-            아이디와 닉네임이 매칭 되어있는 딕셔너리를 이용하여 편하게 출력해주자!
+        아이디와 닉네임이 매칭 되어있는 딕셔너리를 이용하여 편하게 출력해주자!
             
-            ```python
-            for word in record :
-                    new_record = word.split(' ')
-                    split_record.append(new_record)
+        ```python
+        for word in record :
+                new_record = word.split(' ')
+                split_record.append(new_record)
             
-            for out in split_record :
-                    if out[0] == 'Enter' :
-                        answer.append(dic[out[1]] + "님이 들어왔습니다.")
-                    if out[0] == "Leave" :
-                        answer.append(dic[out[1]] + "님이 나갔습니다.")
-            ```
+        for out in split_record :
+                if out[0] == 'Enter' :
+                    answer.append(dic[out[1]] + "님이 들어왔습니다.")
+                if out[0] == "Leave" :
+                    answer.append(dic[out[1]] + "님이 나갔습니다.")
+        ```
             
-### 🤍**전체 코드**
+### 💜**전체 코드**
     
     ```python
     def solution(record):
