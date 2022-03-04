@@ -3,7 +3,7 @@ module.exports = {
   description: `쭈E로그`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
   siteUrl: `https://github.com/JuHuiHeo/JuHuiHeo.github.io`,
-  ogImage: `/new_og-image.png`, // Path to your in the 'static' folder
+  ogImage: `/AREmogi.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
       repo: ``, // `zoomkoding/zoomkoding-gatsby-blog`,
