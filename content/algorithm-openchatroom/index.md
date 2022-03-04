@@ -1,7 +1,7 @@
 ---
 emoji: 💙
 title: [Python] 오픈채팅방
-date: '2022-03-03 15:14'
+date: '2022-03-03 15:14:00'
 author: 쭈이
 tags: 프로그래머스 Python Algorithm
 categories: Algorithm Python
