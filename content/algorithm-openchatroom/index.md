@@ -88,10 +88,10 @@ Muzi가 나간후 다시 들어올 때, Prodo 라는 닉네임으로 들어올 �
         
      `split` 함수를 통해 나누어준다.
         
-        ```python
-        for word in record :
-                new_record = word.split(' ')
-        ```
+    ```python
+    for word in record :
+            new_record = word.split(' ')
+    ```
         
     ![new_record의 형태](Untitled.png)
     *new_record의 형태*
@@ -110,14 +110,14 @@ Muzi가 나간후 다시 들어올 때, Prodo 라는 닉네임으로 들어올 �
         
     나머지의 경우는 1번 인덱스에 해당하는 **아이디**를 `key`값으로 가지고, 2번 인덱스에 해당하는 **닉네임**을 `value`값으로 가지는 딕셔너리를 만들어준다.
         
-        ```python
-        if new_record[0] == 'Leave' :
-        		continue
-        else :
-        		dic[new_record[1]] = new_record[2]
-        		## new_record[1] = id
-        		## new_record[2] = name
-        ```
+    ```python
+    if new_record[0] == 'Leave' :
+        	continue
+    else :
+        	dic[new_record[1]] = new_record[2]
+        	## new_record[1] = id
+        	## new_record[2] = name
+    ```
         
     ---
         
@@ -127,43 +127,43 @@ Muzi가 나간후 다시 들어올 때, Prodo 라는 닉네임으로 들어올 �
             
     아이디와 닉네임이 매칭 되어있는 딕셔너리를 이용하여 편하게 출력해주자!
             
-        ```python
-        for word in record :
-                new_record = word.split(' ')
-                split_record.append(new_record)
-            
-        for out in split_record :
-                if out[0] == 'Enter' :
-                    answer.append(dic[out[1]] + "님이 들어왔습니다.")
-                if out[0] == "Leave" :
-                    answer.append(dic[out[1]] + "님이 나갔습니다.")
-        ```
-            
-### 💜**전체 코드**
-    
     ```python
-    def solution(record):
-        answer = []
-        split_record = []
-        dic = {}
-    
-        for word in record :
+    for word in record :
             new_record = word.split(' ')
             split_record.append(new_record)
-    
-            if new_record[0] == 'Leave' :
-                continue
-            else :
-                dic[new_record[1]] = new_record[2]
-    
-        for out in split_record :
+            
+    for out in split_record :
             if out[0] == 'Enter' :
                 answer.append(dic[out[1]] + "님이 들어왔습니다.")
             if out[0] == "Leave" :
                 answer.append(dic[out[1]] + "님이 나갔습니다.")
-    
-        return answer
     ```
+            
+### 💜**전체 코드**
+    
+```python
+def solution(record):
+    answer = []
+    split_record = []
+    dic = {}
+    
+    for word in record :
+        new_record = word.split(' ')
+        split_record.append(new_record)
+    
+        if new_record[0] == 'Leave' :
+            continue
+        else :
+            dic[new_record[1]] = new_record[2]
+    
+    for out in split_record :
+        if out[0] == 'Enter' :
+            answer.append(dic[out[1]] + "님이 들어왔습니다.")
+        if out[0] == "Leave" :
+            answer.append(dic[out[1]] + "님이 나갔습니다.")
+    
+    return answer
+```
 
 ```toc
 
