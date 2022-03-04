@@ -3,7 +3,7 @@ module.exports = {
   description: `쭈E로그`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
   siteUrl: `https://github.com/JuHuiHeo/JuHuiHeo.github.io`,
-  ogImage: `/og-image.png`, // Path to your in the 'static' folder
+  ogImage: `/new_og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
       repo: ``, // `zoomkoding/zoomkoding-gatsby-blog`,
@@ -18,9 +18,9 @@ module.exports = {
       thumbnail: '250.gif', // Path to the image in the 'asset' folder
     },
     social: {
-      github: ``, // `https://github.com/zoomKoding`,
+      github: `https://github.com/JuHuiHeo/JuHuiHeo.github.io`, // `https://github.com/zoomKoding`,
       linkedIn: ``, // `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
-      email: ``, // `zoomkoding@gmail.com`,
+      email: `mooo0502@swu.ac.kr`, // `zoomkoding@gmail.com`,
     },
   },
 
@@ -47,8 +47,8 @@ module.exports = {
         activity: '개인 블로그 운영',
         links: {
           post: '/gatsby-starter-zoomkoding-introduction',
-          github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
-          demo: 'https://www.zoomkoding.com',
+          github: 'https://github.com/JuHuiHeo/JuHuiHeo.github.io',
+          //demo: 'https://www.zoomkoding.com',
         },
       },
     ],
