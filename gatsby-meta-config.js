@@ -18,9 +18,9 @@ module.exports = {
       thumbnail: '250.gif', // Path to the image in the 'asset' folder
     },
     social: {
-      github: ``, // `https://heojuhuigitblog.netlify.app/`,
-      instagram: ``, // `@jjuu_two`,
-      email: ``, // `mooo0502@swu.ac.kr`,
+      github: `https://heojuhuigitblog.netlify.app/`, // `https://heojuhuigitblog.netlify.app/`,
+      instagram: `@jjuu_two`, // `@jjuu_two`,
+      email: `mooo0502@swu.ac.kr`, // `mooo0502@swu.ac.kr`,
     },
   },
 
@@ -46,9 +46,9 @@ module.exports = {
         date: '2022.03 ~',
         activity: '개인 블로그 운영',
         links: {
-          //post: '/gatsby-starter-zoomkoding-introduction',
+          post: '/gatsby-starter-zoomkoding-introduction',
           github: 'https://github.com/JuHuiHeo/JuHuiHeo.github.io',
-          //demo: 'https://www.zoomkoding.com',
+          demo: 'https://www.zoomkoding.com',
         },
       },
     ],
