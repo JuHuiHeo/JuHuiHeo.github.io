@@ -166,7 +166,3 @@ Muzi가 나간후 다시 들어올 때, Prodo 라는 닉네임으로 들어올 �
     
         return answer
     ```
-
-```toc
-
-```
