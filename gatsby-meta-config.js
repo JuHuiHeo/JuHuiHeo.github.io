@@ -18,7 +18,7 @@ module.exports = {
       thumbnail: 'AREmoji.gif', // Path to the image in the 'asset' folder
     },
     social: {
-      github: `https://github.com/JuHuiHeo/JuHuiHeo.github.io`, // `https://github.com/zoomKoding`,
+      github: `https://github.com/JuHuiHeo`, // `https://github.com/zoomKoding`,
       linkedIn: ``, // `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
       email: `mooo0502@swu.ac.kr`, // `zoomkoding@gmail.com`,
     },
