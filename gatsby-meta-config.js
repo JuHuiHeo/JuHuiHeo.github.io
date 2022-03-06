@@ -51,6 +51,15 @@ module.exports = {
           //demo: 'https://www.zoomkoding.com',
         },
       },
+      {
+        date: '2021.03 ~',
+        activity: '서울여자대학교 재학',
+        links: {
+          //post: '/gatsby-starter-zoomkoding-introduction',
+          //github: 'https://github.com/JuHuiHeo/JuHuiHeo.github.io',
+          //demo: 'https://www.zoomkoding.com',
+        },
+      },
     ],
 
     projects: [
