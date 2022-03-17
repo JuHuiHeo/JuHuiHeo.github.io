@@ -93,7 +93,7 @@ def dfs(a):
 dfs('JFK')
 ```
 
-![Untitled](Untitled%201.gif)
+![Untitled](Untitled_1.gif)
 
 ---
 
@@ -111,7 +111,7 @@ dfs('JFK')
 route = route[::-1]
 ```
 
-![Untitled](Untitled%202.gif)
+![Untitled](Untitled_2.gif)
 
 ---
 
