@@ -62,11 +62,11 @@ categories: Study Python DeepLearning
 
 ---
 
-### 🤪 02) ****텐서 조작하기(Tensor Manipulation) 1****
+### 🤪 02) **텐서 조작하기(Tensor Manipulation) 1**
 
 1. **벡터, 행렬 그리고 텐서(Vector, Matrix and Tensor)**
    
-    1. **벡터, 행렬 텐서 그림으로 이해하기**
+    💙 **벡터, 행렬 텐서 그림으로 이해하기**
     
     ![test](Untitled1.png)
     
@@ -76,7 +76,7 @@ categories: Study Python DeepLearning
 
     ---
     
-    1. **PyTorch 텐서 모양 규칙(PyTorch Tensor Shape Convention)**
+    💙 **PyTorch 텐서 모양 규칙(PyTorch Tensor Shape Convention)**
     
     - `batch`란?
         
@@ -149,7 +149,7 @@ categories: Study Python DeepLearning
         ```
     ---
 
-    1. **넘파이로 텐서 만들기(벡터와 행렬 만들기)**
+    💙 **넘파이로 텐서 만들기(벡터와 행렬 만들기)**
     
     행렬을 만들기 가장 좋은 라이브러리는 Numpy이다. Numpy를 import하여 텐서를 만들어주자!
     
@@ -221,7 +221,7 @@ categories: Study Python DeepLearning
     (4, 3)
     ```
     ---
-    1. **파이토치 텐서 선언하기(PyTorch Tensor Allocation)**
+    💙 **파이토치 텐서 선언하기(PyTorch Tensor Allocation)**
     - 🤍 **1D with PyTorch**
 
         
@@ -271,7 +271,7 @@ categories: Study Python DeepLearning
         torch.Size([4, 3])
         ```
     ---
-    1. **브로드캐스팅(Broadcasting)**
+    💙 **브로드캐스팅(Broadcasting)**
         
     행렬 간의 연산을 할 때, 행렬의 크기는 아주 중요하다.
         
@@ -311,7 +311,7 @@ categories: Study Python DeepLearning
             
         m1은 (1, 2), m2는(1, )의 사이즈를 가진다. 원래라면 행렬 간의 연산이 불가능해야 맞지만 `브로드캐스팅` 을 통해 계산한다.
             
-        m2의 사이즈 **(1, )를 (1, 2)**로 변경하여 계산한 것을 볼 수 있다.
+        m2의 사이즈 (1, )를 (1, 2)로 변경하여 계산한 것을 볼 수 있다.
             
     - 두 행렬이 다른 크기일 때 연산(벡터 + 벡터)
             
@@ -329,7 +329,7 @@ categories: Study Python DeepLearning
             
         m1은 (1, 2), m2는(2, 1)의 사이즈를 가진다.
             
-        m1, m2의 사이즈를 각각 **(2, 2)**로 변경하여 계산한 것을 볼 수 있다.
+        m1, m2의 사이즈를 각각 (2, 2)로 변경하여 계산한 것을 볼 수 있다.
     ---           
 2. **자주 사용되는 기능들**
     1. **행렬 곱셈과 곱셈의 차이(Matrix Multiplication Vs. Multiplication)**
