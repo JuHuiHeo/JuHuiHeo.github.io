@@ -1,10 +1,10 @@
 ---
 emoji: 🦐
-title: "[DeepLearing] CNN 개념공부하기"
+title: "[DeepLearning] CNN 개념공부하기"
 date: '2022-03-16 16:53'
 author: 쭈이
-tags: DeepLearing Python Study CNN
-categories: Study Python DeepLearing
+tags: DeepLearning Python Study CNN
+categories: Study Python DeepLearning
 ---
 
 ## 🥰 출처

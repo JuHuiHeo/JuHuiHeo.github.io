@@ -1,10 +1,10 @@
 ---
 emoji: ❤️
-title: "[DeepLearing] KoBERT 개념공부하기"
+title: "[DeepLearning] KoBERT 개념공부하기"
 date: '2022-03-02 16:17'
 author: 쭈이
-tags: KoBERT Python Study DeepLearing
-categories: Study Python DeepLearing
+tags: KoBERT Python Study DeepLearning
+categories: Study Python DeepLearning
 ---
 
 ## 😝 참고자료
