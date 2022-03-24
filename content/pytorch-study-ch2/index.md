@@ -47,7 +47,7 @@ categories: Study Python DeepLearning
     
     `확률적 경사 하강법`(Stochastic Gradient Descent, `SGD`)를 중심으로 한 파라미터 최적화 알고리즘이 구현되어 있다.
     
-    ![Untitled](/Untitled.png)
+    ![Untitled](test.png)
     
     그림과 같이 `확률적 경사 하강법`은 전체 데이터를 사용하는 것이 아니라, 랜덤하게 추출한 일부 데이터를 사용한다. 따라서 학습 중간 과정에서 결과의 진폭이 크고 불안정하며, 속도가 매우 빠른 것이 특징이다.
     
@@ -68,7 +68,7 @@ categories: Study Python DeepLearning
    
     a. **벡터, 행렬 텐서 그림으로 이해하기**
     
-    ![test](/test.png)
+    ![test](Untitled1.png)
     
     차원이 없는 값을 `스칼라`, 1차원으로 구성된 값을 `벡터`라고 합니다. 2차원으로 구성된 값은 `행렬`, 3차원으로 구성된 값을 `텐서`라고 부릅니다.
     
@@ -80,7 +80,7 @@ categories: Study Python DeepLearning
     
     - `batch`란?
         
-        ![Untitled](/Untitled2.png)
+        ![Untitled](Untitled2.png)
         
         `batch`의 사전적 의미는 다음과 같다.
         
@@ -95,7 +95,7 @@ categories: Study Python DeepLearning
     
     앞으로 행렬과 텐서의 크기를 표현할 때 다음과 같은 방법으로 표기한다.
     
-    ![Untitled](%5BDeep%20Lear%203aab8/Untitled%203.png)
+    ![Untitled](Untitled3.png)
     
     - **2차원 텐서(|t|) = (batch size, dim)**
     - **3차원 텐서(|t|) = (batch size, width, height)**
@@ -331,12 +331,12 @@ categories: Study Python DeepLearning
             
         m1, m2의 사이즈를 각각 **(2, 2)**로 변경하여 계산한 것을 볼 수 있다.
     ---           
-1. **자주 사용되는 기능들**
+2. **자주 사용되는 기능들**
     1. **행렬 곱셈과 곱셈의 차이(Matrix Multiplication Vs. Multiplication)**
         - 행렬 곱셈(`m1.matmul(m2)`) : 행렬 간 곱셈 연산을 수행한다.
         - 원소 별 곱셈(`m1.mul(m2)`, `m1 * m2`) : 동일한 크기의 행렬이 동일한 위치에 있는 원소끼리 곱하는 연산을 수행한다.
             
-    1. **평균(Mean)**
+    2. **평균(Mean)**
             
         ```python
         ## 벡터를 인자로 주는 경우
@@ -372,7 +372,7 @@ categories: Study Python DeepLearning
             - 행렬에서는 마지막 차원인 ‘열’이 제거 된다.
             - **각 행들만 본다.**
                 
-    2. **덧셈(Sum)**
+    3. **덧셈(Sum)**
             
         ```python
         t = torch.FloatTensor([[1, 2],
@@ -393,7 +393,7 @@ categories: Study Python DeepLearning
         tensor([3., 7.])
         ```
             
-    3. **최대(Max)와 아그맥스(ArgMax)**
+    4. **최대(Max)와 아그맥스(ArgMax)**
         - Max(`t.max(dim=k)[0]`) : 원소의 최대 값을 리턴한다.
         - ArgMax(`t.max(dim=k)[1]`) : 원소의 최대 값의 인덱스를 리턴한다.
             
@@ -414,11 +414,11 @@ categories: Study Python DeepLearning
             
         - `t.max(dim=0)[0]` ⇒ max
                 
-            ![Untitled](%5BDeep%20Lear%203aab8/Untitled.gif)
+            ![Untitled](Untitled.gif)
                 
         - `t.max(dim=0)[1]` ⇒ argmax
                 
-            ![Untitled](%5BDeep%20Lear%203aab8/Untitled%201.gif)
+            ![Untitled](Untitled_1.gif)
                 
     
 
@@ -454,7 +454,7 @@ categories: Study Python DeepLearning
     
     - `ft.shape` 실행 과정
     
-    ![Untitled](%5BDeep%20Lear%203aab8/Untitled%202.gif)
+    ![Untitled](Untitled_2.gif)
     
     이제 ft 텐서를 `view`를 이용하여 shape를 변경해주자.
     
@@ -617,7 +617,7 @@ categories: Study Python DeepLearning
     - `torch.ones_like(t)` : 입력 텐서 t와 크기를 동일하게 하면서 값을 1로 채운다.
     - `torch.zeros_like(t)` : 입력 텐서 t와 크기를 동일하게 하면서 값을 0로 채운다.
 
-1. `덮어쓰기 연산`(`In-place Operation`)
+8. `덮어쓰기 연산`(`In-place Operation`)
     
     연산 뒤에 `_` 를 붙였을 때, 기존의 값에도 연산 값을 덮어버리는 연산 방법이다.
     
@@ -659,7 +659,7 @@ categories: Study Python DeepLearning
 - `메서드` = 스킬(공격, 회피 등)
 - `인스턴스` = 게임 아이디
 
-![Untitled](%5BDeep%20Lear%203aab8/Untitled%204.png)
+![Untitled](Untitled4.png)
 
 ```python
 class Warrior : ## 클래스 = 직업
@@ -693,3 +693,7 @@ user2.miss()
     - 보통 파이썬에서는 `클래스`의 이름을 **대문자**로 시작한다.
     - `메서드`의 첫 번째 매개변수는 반드시 `self`를 지정해야 한다.
     - 너무 깊게 생각하지 말고... 그냥 받아들이자...🥲
+
+```toc
+
+```
