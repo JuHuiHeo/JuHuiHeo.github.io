@@ -19,7 +19,7 @@ categories: Study Python DeepLearning
 
 ---
 
-## 🤔 02. 파이토치 기초(PyTorch Basic)
+## 🤔 Ch2. 파이토치 기초(PyTorch Basic)
 
 ---
 
@@ -66,7 +66,7 @@ categories: Study Python DeepLearning
 
 1. **벡터, 행렬 그리고 텐서(Vector, Matrix and Tensor)**
    
-    a. **벡터, 행렬 텐서 그림으로 이해하기**
+    1. **벡터, 행렬 텐서 그림으로 이해하기**
     
     ![test](Untitled1.png)
     
@@ -76,7 +76,7 @@ categories: Study Python DeepLearning
 
     ---
     
-    b. **PyTorch 텐서 모양 규칙(PyTorch Tensor Shape Convention)**
+    1. **PyTorch 텐서 모양 규칙(PyTorch Tensor Shape Convention)**
     
     - `batch`란?
         
@@ -138,18 +138,18 @@ categories: Study Python DeepLearning
         지금 현재는 batch size가 4이다. 이를 2로 바꾸게 되면,
         
     
-    ```python
-    ## 첫번째 배치-(2*3*3)
-    [[[0.1, 0.2, 0.9], [0.3, 0.5, 0.1], [0.7, 0.6, 0.5]],
-     [[0.1, 0.2, 0.9], [0.3, 0.5, 0.2], [0.7, 0.6, 0.5]]]
+        ```python
+        ## 첫번째 배치-(2*3*3)
+        [[[0.1, 0.2, 0.9], [0.3, 0.5, 0.1], [0.7, 0.6, 0.5]],
+         [[0.1, 0.2, 0.9], [0.3, 0.5, 0.2], [0.7, 0.6, 0.5]]]
     
-    ## 두번째 배치-(2*3*3)
-    [[[0.1, 0.2, 0.9], [0.3, 0.5, 0.1], [0.5, 0.6, 0.7]],
-     [[0.1, 0.2, 0.9], [0.3, 0.5, 0.2], [0.5, 0.6, 0.7]]]
-    ```
+        ## 두번째 배치-(2*3*3)
+        [[[0.1, 0.2, 0.9], [0.3, 0.5, 0.1], [0.5, 0.6, 0.7]],
+        [[0.1, 0.2, 0.9], [0.3, 0.5, 0.2], [0.5, 0.6, 0.7]]]
+        ```
     ---
 
-    c. **넘파이로 텐서 만들기(벡터와 행렬 만들기)**
+    1. **넘파이로 텐서 만들기(벡터와 행렬 만들기)**
     
     행렬을 만들기 가장 좋은 라이브러리는 Numpy이다. Numpy를 import하여 텐서를 만들어주자!
     
@@ -159,7 +159,7 @@ categories: Study Python DeepLearning
     import numpy as np
     ```
     
-    * **1D with Numpy**
+    - **🤍 1D with Numpy**
     
     Numpy로 1차원 텐서인 벡터를 만들어보자. 그냥 쉽게 말해서 1차원 배열을 만들어주면 된다!
     
@@ -173,9 +173,9 @@ categories: Study Python DeepLearning
     [0. 1. 2. 3. 4. 5. 6.]
     ```
     
-    - `t.ndim` : 벡터(t)의 차원을 출력한다
-    - `t.shpae` : 벡터(t)의 크기를 출력한다.
-        - 예시) (2, 3) : 2행 3열
+      - `t.ndim` : 벡터(t)의 차원을 출력한다
+      - `t.shpae` : 벡터(t)의 크기를 출력한다.
+          - 예시) (2, 3) : 2행 3열
     
     ```python
     print(t.ndim)
@@ -193,7 +193,7 @@ categories: Study Python DeepLearning
     > (1 * k) 형식의 텐서 크기는 (k, )로 출력 된다.
     > 
     
-    *  **2D with Numpy**
+    -  **🤍 2D with Numpy**
     
     Numpy로 2차원 행렬을 만들어보자!
     
@@ -221,8 +221,8 @@ categories: Study Python DeepLearning
     (4, 3)
     ```
     ---
-    d. **파이토치 텐서 선언하기(PyTorch Tensor Allocation)**
-    * **1D with PyTorch**
+    1. **파이토치 텐서 선언하기(PyTorch Tensor Allocation)**
+    - 🤍 **1D with PyTorch**
 
         
         ```python
@@ -246,7 +246,7 @@ categories: Study Python DeepLearning
         torch.Size([7])
         ```
         
-        b. **2D with PyTorch**
+    - 🤍 **2D with PyTorch**
         
         ```python
         t = torch.FloatTensor([[1., 2., 3.],
@@ -271,7 +271,7 @@ categories: Study Python DeepLearning
         torch.Size([4, 3])
         ```
     ---
-    e. **브로드캐스팅(Broadcasting)**
+    1. **브로드캐스팅(Broadcasting)**
         
     행렬 간의 연산을 할 때, 행렬의 크기는 아주 중요하다.
         
