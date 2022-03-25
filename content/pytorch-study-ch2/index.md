@@ -362,15 +362,15 @@ categories: Study Python DeepLearning
         - dim = 0
             - 첫 번째 차원을 제거한다.
             - 행렬에서는 첫 번째 차원인 ‘행’이 제거 된다.
-             - **각 열들만 본다.**
+             - **세로!**
         - dim = 1
             - 두 번째 차원을 제거한다.
             - 행렬에서는 두 번째 차원인 ‘열’이 제거 된다.
-            - **각 행들만 본다.**
+            - **가로!**
         - dim = -1
             - 마지막 차원을 제거한다.
             - 행렬에서는 마지막 차원인 ‘열’이 제거 된다.
-            - **각 행들만 본다.**
+            - **가로!**
                 
     3. **덧셈(Sum)**
             
@@ -379,9 +379,9 @@ categories: Study Python DeepLearning
             				[3, 4]]) # 이해를 돕기 위해 보기 좋게 표시
             
         print(t.sum()) # 단순히 원소 전체의 덧셈을 수행
-        print(t.sum(dim=0)) # 열만 보기
-        print(t.sum(dim=1)) # 행만 보기
-        print(t.sum(dim=-1)) # 행만 보기
+        print(t.sum(dim=0)) # 세로
+        print(t.sum(dim=1)) # 가로
+        print(t.sum(dim=-1)) # 가로
         ```
             
         ```python
@@ -401,15 +401,15 @@ categories: Study Python DeepLearning
         t = torch.FloatTensor([[1, 2], 
             					[3, 4]]) # 이해를 돕기 위해 보기 좋게 표시
         print(t.max())
-        print(t.max(dim=0)[0]) # 열 중심 max
-        print(t.max(dim=0)[1]) # 열 중심 argmax
+        print(t.max(dim=0)[0]) # 세로 max
+        print(t.max(dim=0)[1]) # 세로 argmax
         ```
             
         ```python
         # output
         tensor(4.)
-        tensor([3., 4.]) # 열 중심 max
-        tensor([1, 1]) # 열 중심 argmax
+        tensor([3., 4.]) # 세로 max
+        tensor([1, 1]) # 세로 argmax
         ```
             
         - `t.max(dim=0)[0]` ⇒ max
@@ -573,18 +573,18 @@ categories: Study Python DeepLearning
     y = torch.FloatTensor([[5, 6],
     											[7, 8]])
     
-    print(torch.cat([x, y], dim=0)) ## 열 중심
-    print(torch.cat([x, y], dim=1)) ## 행 중심
+    print(torch.cat([x, y], dim=0)) ## 세로
+    print(torch.cat([x, y], dim=1)) ## 가로
     ```
     
     ```python
-    ## 열 중심 output
+    ## 세로 output
     tensor([[1., 2.],
             [3., 4.],
             [5., 6.],
             [7., 8.]])
     
-    ## 행 중심 output
+    ## 가로 output
     tensor([[1., 2., 5., 6.],
             [3., 4., 7., 8.]])
     ```
@@ -599,7 +599,7 @@ categories: Study Python DeepLearning
     z = torch.FloatTensor([3, 6])
     
     print(torch.stack([x, y, z]))
-    print(torch.stack([x, y, z], dim=1)) # 행 중심
+    print(torch.stack([x, y, z], dim=1)) # 가로
     ```
     
     ```python
@@ -610,7 +610,7 @@ categories: Study Python DeepLearning
             [3., 6.]])
     
     tensor([[1., 2., 3.],
-            [4., 5., 6.]]) # 행 중심
+            [4., 5., 6.]]) # 가로
     ```
     
 7. **`ones_like`와 `zeros_like`**
