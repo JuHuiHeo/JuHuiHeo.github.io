@@ -60,6 +60,15 @@ module.exports = {
           //demo: 'https://www.zoomkoding.com',
         },
       },
+      {
+        date: '2021.03 ~',
+        activity: 'IT 연합동아리 TAVE 활동',
+        links: {
+          //post: '/gatsby-starter-zoomkoding-introduction',
+          //github: 'https://github.com/JuHuiHeo/JuHuiHeo.github.io',
+          //demo: 'https://www.zoomkoding.com',
+        },
+      },
     ],
 
     projects: [
