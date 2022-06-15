@@ -75,12 +75,12 @@ module.exports = {
       // =====        [Project Sample and Structure]        =====
       // ===== 🚫 Don't erase this sample (여기 지우지 마세요!)  =====
       {
-        title: '2021 스노우 소프트웨어 랩 1기',
-        description: '채식 식단 관리 다이어리 VEGEMATE 어플을 만들어 본선에 진출하였습니다. 최종 수상권에는 들지 못했지만, 어플리케이션의 설계와 뎁스, 플로우 차트까지 앱 개발을 경험할 수 있었던 좋은 기회였습니다. 또한, 마케팅과 홍보 분야에서도 많은 배움을 얻는 소프트웨어 창업 공모전이었습니다.',
-        techStack: ['front-end', 'back-end'],
+        title: '',
+        description: '.',
+        techStack: ['', ''],
         thumbnailUrl: '',
         links: {
-          post: 'http://m.mhj21.com/143938',
+          post: '',
           github: '',
           googlePlay: '',
           appStore: '',
@@ -90,13 +90,13 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        title: '',
+        title: '2021 스노우 소프트웨어 랩 1기',
         description:
-          '',
-        techStack: ['', ''],
+          '채식 식단 관리 다이어리 VEGEMATE 어플을 만들어 본선에 진출하였습니다. 최종 수상권에는 들지 못했지만, 어플리케이션의 설계와 뎁스, 플로우 차트까지 앱 개발을 경험할 수 있었던 좋은 기회였습니다. 또한, 마케팅과 홍보 분야에서도 많은 배움을 얻는 소프트웨어 창업 공모전이었습니다.',
+        techStack: ['front-end', 'back-end'],
         thumbnailUrl: '',
         links: {
-          post: '',
+          post: 'http://m.mhj21.com/143938',
           github: '',
           demo: '',
         },
