@@ -121,7 +121,7 @@ module.exports = {
         thumbnailUrl: 'aispark.png',
         links: {
           post: '',
-          github: '',
+          github: 'https://github.com/Jeiyoon/Azure-Virtual-Hackathon-2022',
           demo: '',
         },
       },
