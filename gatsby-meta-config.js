@@ -113,6 +113,18 @@ module.exports = {
           demo: '',
         },
       },
+      {
+        title: '2022 Azure Virtual Hackathon 대상(1st)',
+        description:
+          '시각 장애 유튜버를 위한 영상 편집 도움 서비스 Hi Azure!: Helping video creators who are visually-impaired edit videos using Azure Cloud AI!를 개발하여 대상을 수상했습니다. Hi Azure!는 사용자가 제공한 영상을 프레임 단위로 분할한 뒤, 시각 정보를 음성으로 변환하여 제공합니다. 이 과정에서 Azure Cognitive Services, Image Analysis, Convert Text to Audio, Dense Captioning을 활용하였습니다.',
+        techStack: ['Microsoft Azure', 'Computer Vison'],
+        thumbnailUrl: 'aispark.png',
+        links: {
+          post: '',
+          github: '',
+          demo: '',
+        },
+      },
     ],
   },
 };
