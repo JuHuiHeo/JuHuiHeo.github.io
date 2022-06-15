@@ -90,13 +90,25 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        title: '2021 스노우 소프트웨어 랩 1기',
+        title: '2021 스노우 소프트웨어 랩 1기 본선 진출',
         description:
           '채식 식단 관리 다이어리 VEGEMATE 어플을 만들어 본선에 진출하였습니다. 최종 수상권에는 들지 못했지만, 어플리케이션의 설계와 뎁스, 플로우 차트까지 앱 개발을 경험할 수 있었던 좋은 기회였습니다. 또한, 마케팅과 홍보 분야에서도 많은 배움을 얻는 소프트웨어 창업 공모전이었습니다.',
         techStack: ['front-end', 'back-end'],
-        thumbnailUrl: '',
+        thumbnailUrl: 'vegemateppt.png',
         links: {
           post: 'http://m.mhj21.com/143938',
+          github: '',
+          demo: '',
+        },
+      },
+      {
+        title: '제3회 AI SPARK CHALLENG 최우수상(2rd)',
+        description:
+          '감정정보를 통한 영상 하이라이트 요약 프로그램을 개발하여 최우수상을 수상하였습니다. 영상의 하이라이트는 감정정보가 자주 등장하는 영상 프레임과 상관관계가 있다고 가정하였습니다. 그에 따라 우리 모델은 비디오에서 시각 정보와 음성 정보를 동시에 추출한 뒤, attention mechanism을 통해 하이라이트를 뽑아냅니다. 또한, 감정 정보에 중요도 점수를 부여하여 그 점수를 기반으로 하이라이트를 생성합니다.',
+        techStack: ['Computer Vison', 'SER'],
+        thumbnailUrl: 'aispark.png',
+        links: {
+          post: '',
           github: '',
           demo: '',
         },
