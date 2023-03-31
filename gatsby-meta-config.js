@@ -14,7 +14,7 @@ module.exports = {
     name: `허주희`,
     bio: {
       role: `코딩하는`,
-      description: ['전공 공부도 열심히 하고', '스터디도 열심히 하고', '공모전도 열심히 하고'],
+      description: ['알고리즘도', '개발도', 'AI도'],
       thumbnail: 'AREmoji.gif', // Path to the image in the 'asset' folder
     },
     social: {
