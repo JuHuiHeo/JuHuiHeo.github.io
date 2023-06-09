@@ -1,4 +1,11 @@
-# [Computer Graphics] 그래픽 하드웨어 종류와 작동 원리
+---
+emoji: 🎁
+title: "[Computer Graphics] 그래픽 하드웨어 종류와 작동 원리"
+date: '2023-03-31 17:07'
+author: 쭈이
+tags: Graphics AI ComputerGraphics
+categories:
+---
 
 ## 🥰 출처
 
