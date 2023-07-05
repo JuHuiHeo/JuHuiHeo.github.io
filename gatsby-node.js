@@ -35,11 +35,13 @@ const createPostsPages = ({ createPage, results }) => {
   });
 
   const categories = [...categorySet];
+  const initialCategory = 'Study'; // 원하는 초기 카테고리를 설정합니다.
 
   createPage({
     path: `/posts`,
     component: categoryTemplate,
-    context: { currentCategory: 'All', edges, categories },
+    context: { currentCategory: initialCategory, edges, categories },
+    //'All'
   });
 
   categories.forEach((currentCategory) => {
