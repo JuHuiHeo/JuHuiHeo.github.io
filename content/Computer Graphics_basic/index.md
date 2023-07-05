@@ -4,7 +4,7 @@ title: "[Computer Graphics] 컴퓨터 그래픽스 개념과 응용 기술"
 date: '2023-03-31 17:07'
 author: 쭈이
 tags: Graphics AI ComputerGraphics
-categories: Study
+categories: Study featured
 ---
 
 ## 🥰 **출처**

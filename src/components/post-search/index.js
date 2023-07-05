@@ -7,6 +7,7 @@ import './style.scss';
 function PostSearch({ posts }) {
   return (
     <Autocomplete
+      freeSolo
       disableClearable
       options={posts}
       onInputChange={(event, value, reason) => {
@@ -24,19 +25,10 @@ function PostSearch({ posts }) {
       getOptionLabel={(option) => option.title}
       renderInput={(params) => (
         <div className="search-input-wrapper">
-          <TextField
-            {...params}
-            className="search-input"
-            variant="standard"
-            size="medium"
-            InputProps={{
-              ...params.InputProps,
-              endAdornment: <SearchIcon className="search-icon" />,
-            }}
-          />
+          <SearchIcon className="search-icon" />
+          <TextField className="search-input" variant="standard" {...params} size="medium" />
         </div>
       )}
-      noOptionsText="해당하는 글이 없습니다."
     />
   );
 }
