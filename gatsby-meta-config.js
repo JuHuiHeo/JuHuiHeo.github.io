@@ -1,9 +1,9 @@
 module.exports = {
-  title: `zoomkoding.com`,
-  description: `줌코딩의 개발일기`,
+  title: `jjuuelog`,
+  description: `쭈E로그`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
-  siteUrl: `https://www.zoomkoding.com`,
-  ogImage: `/og-image.png`, // Path to your in the 'static' folder
+  siteUrl: `https://github.com/JuHuiHeo/JuHuiHeo.github.io`,
+  ogImage: `/new_og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
       repo: ``, // `zoomkoding/zoomkoding-gatsby-blog`,
@@ -11,16 +11,16 @@ module.exports = {
   },
   ga: '0', // Google Analytics Tracking ID
   author: {
-    name: `정진혁`,
+    name: `허주희`,
     bio: {
-      role: `개발자`,
-      description: ['사람에 가치를 두는', '능동적으로 일하는', '이로운 것을 만드는'],
-      thumbnail: 'sample.png', // Path to the image in the 'asset' folder
+      role: `코딩하는`,
+      description: ['알고리즘도', '개발도', 'AI도'],
+      thumbnail: 'AREmoji.gif', // Path to the image in the 'asset' folder
     },
     social: {
-      github: ``, // `https://github.com/zoomKoding`,
+      github: `https://github.com/JuHuiHeo`, // `https://github.com/zoomKoding`,
       linkedIn: ``, // `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
-      email: ``, // `zoomkoding@gmail.com`,
+      email: `mooo0502@swu.ac.kr`, // `zoomkoding@gmail.com`,
     },
   },
 
@@ -43,12 +43,30 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        date: '2021.02 ~',
-        activity: '개인 블로그 개발 및 운영',
+        date: '2022.03 ~',
+        activity: '개인 블로그 운영',
         links: {
           post: '/gatsby-starter-zoomkoding-introduction',
-          github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
-          demo: 'https://www.zoomkoding.com',
+          github: 'https://github.com/JuHuiHeo/JuHuiHeo.github.io',
+          //demo: 'https://www.zoomkoding.com',
+        },
+      },
+      {
+        date: '2021.03 ~',
+        activity: '서울여자대학교 재학',
+        links: {
+          //post: '/gatsby-starter-zoomkoding-introduction',
+          //github: 'https://github.com/JuHuiHeo/JuHuiHeo.github.io',
+          //demo: 'https://www.zoomkoding.com',
+        },
+      },
+      {
+        date: '2021.03 ~',
+        activity: 'IT 연합동아리 TAVE 활동',
+        links: {
+          //post: '/gatsby-starter-zoomkoding-introduction',
+          //github: 'https://github.com/JuHuiHeo/JuHuiHeo.github.io',
+          //demo: 'https://www.zoomkoding.com',
         },
       },
     ],
@@ -58,7 +76,7 @@ module.exports = {
       // ===== 🚫 Don't erase this sample (여기 지우지 마세요!)  =====
       {
         title: '',
-        description: '',
+        description: '.',
         techStack: ['', ''],
         thumbnailUrl: '',
         links: {
@@ -72,15 +90,39 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        title: '개발 블로그 테마 개발',
+        title: '2021 스노우 소프트웨어 랩 1기 본선 진출',
         description:
-          '개발 블로그를 운영하는 기간이 조금씩 늘어나고 점점 많은 생각과 경험이 블로그에 쌓아가면서 제 이야기를 담고 있는 블로그를 직접 만들어보고 싶게 되었습니다. 그동안 여러 개발 블로그를 보면서 좋았던 부분과 불편했던 부분들을 바탕으로 레퍼런스를 참고하여 직접 블로그 테마를 만들게 되었습니다.',
-        techStack: ['gatsby', 'react'],
-        thumbnailUrl: 'blog.png',
+          '채식 식단 관리 다이어리 VEGEMATE 어플을 만들어 본선에 진출하였습니다. 최종 수상권에는 들지 못했지만, 어플리케이션의 설계와 뎁스, 플로우 차트까지 앱 개발을 경험할 수 있었던 좋은 기회였습니다. 또한, 마케팅과 홍보 분야에서도 많은 배움을 얻는 소프트웨어 창업 공모전이었습니다.',
+        techStack: ['front-end', 'back-end'],
+        thumbnailUrl: 'vegemateppt.png',
         links: {
-          post: '/gatsby-starter-zoomkoding-introduction',
-          github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
-          demo: 'https://www.zoomkoding.com',
+          post: 'http://m.mhj21.com/143938',
+          github: '',
+          demo: '',
+        },
+      },
+      {
+        title: '제3회 AI SPARK CHALLENG 최우수상(2rd)',
+        description:
+          '감정정보를 통한 영상 하이라이트 요약 프로그램을 개발하여 최우수상을 수상하였습니다. 영상의 하이라이트는 감정정보가 자주 등장하는 영상 프레임과 상관관계가 있다고 가정하였습니다. 그에 따라 우리 모델은 비디오에서 시각 정보와 음성 정보를 동시에 추출한 뒤, attention mechanism을 통해 하이라이트를 뽑아냅니다. 또한, 감정 정보에 중요도 점수를 부여하여 그 점수를 기반으로 하이라이트를 생성합니다.',
+        techStack: ['Computer Vison', 'SER'],
+        thumbnailUrl: 'aispark.png',
+        links: {
+          post: '',
+          github: '',
+          demo: '',
+        },
+      },
+      {
+        title: '2022 Azure Virtual Hackathon 대상(1st)',
+        description:
+          '시각 장애 유튜버를 위한 영상 편집 도움 서비스 Hi Azure!: Helping video creators who are visually-impaired edit videos using Azure Cloud AI!를 개발하여 대상을 수상했습니다. Hi Azure!는 사용자가 제공한 영상을 프레임 단위로 분할한 뒤, 시각 정보를 음성으로 변환하여 제공합니다. 이 과정에서 Azure Cognitive Services, Image Analysis, Convert Text to Audio, Dense Captioning을 활용하였습니다.',
+        techStack: ['Microsoft Azure', 'Computer Vison'],
+        thumbnailUrl: 'aispark.png',
+        links: {
+          post: '',
+          github: 'https://github.com/Jeiyoon/Azure-Virtual-Hackathon-2022',
+          demo: '',
         },
       },
     ],
