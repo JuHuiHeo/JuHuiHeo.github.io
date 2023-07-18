@@ -59,7 +59,7 @@ class Solution:
 
 ### 📌 얻어갈 점
 
-1) 파이썬 데크와 리스트(링크)
+1) [[Python] 데크(deque)와 리스트(list)](https://master--heojuhuigitblog.netlify.app/Python-deque-list/)
 
 2) 리스트에서는 pop(0), 데크에서는 popleft() 사용
 

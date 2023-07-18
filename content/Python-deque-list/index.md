@@ -1,7 +1,7 @@
 ---
 emoji: 😈
 title: "[Python] 데크(deque)와 리스트(list)"
-date: '2023-03-31 17:07'
+date: '2023-07-10 13:22'
 author: 쭈이
 tags: Python deque list
 categories: Python
