@@ -7,13 +7,6 @@ tags: Python re regularexpressions
 categories: Python
 ---
 
-emoji: 👶
-title: "[DeepLearning] PyTorch로 시작하는 딥러닝 입문 - Ch2"
-date: '2022-03-24 17:32'
-author: 쭈이
-tags: Python Study DeepLearning PyTorch
-categories: Study Python DeepLearning
----
 ## 🥰 참고
 
 - [https://wikidocs.net/1642](https://wikidocs.net/1642)

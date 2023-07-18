@@ -1,7 +1,7 @@
 ---
 emoji: 🐵
 title: "[파이썬알고리즘인터뷰] 6.6 가장 긴 팰린드롬"
-date: '2023-07-13 24:08'
+date: '2023-07-13 20:08'
 author: 쭈이
 tags: 파이썬알고리즘인터뷰 Python
 categories: Python
@@ -43,7 +43,7 @@ def longestPalindrome(s):
 
 ### 📌 얻어갈 점
 
-1) `max` 함수에서 key인자를 사용할 수 있다.(링크)
+1) `max` 함수에서 key인자를 사용할 수 있다.([[Python] max함수와 선택인자(key, default)](https://master--heojuhuigitblog.netlify.app/python-max(key,%20default)/))
 
 2) 예외처리를 통해서 코드의 속도를 향상 시킬 수 있다.
 ```toc

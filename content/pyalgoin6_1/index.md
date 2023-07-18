@@ -81,7 +81,7 @@ def isPalindrome(self, s: str) -> bool:
 
 ### 📌 얻어갈 점
 
-1) `re.sub`는 정규 표현식이다.
+1) `re.sub`는 정규 표현식이다.([[Python] 정규 표현식과 re 모듈](https://master--heojuhuigitblog.netlify.app/python-remodule/))
 
 - `re 모듈` : 파이썬에서 정규 표현식을 사용할 때 쓸 수 있는 모듈
 
