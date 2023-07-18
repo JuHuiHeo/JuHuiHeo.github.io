@@ -81,7 +81,6 @@ ValueError: max() arg is an empty sequence
 >> print(max(a, default = 'error'))
 error
 ```
-
 ```toc
 
 ```
