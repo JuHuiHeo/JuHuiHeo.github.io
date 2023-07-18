@@ -1,10 +1,10 @@
 ---
 emoji: 😸
-title: "[python] 정규 표현식과 re 모듈"
+title: "[Python] 정규 표현식과 re 모듈"
 date: '2023-07-13 22:03'
 author: 쭈이
-tags: python re regularexpressions
-categories: python
+tags: Python re regularexpressions
+categories: Python
 ---
 
 ## 🥰 참고

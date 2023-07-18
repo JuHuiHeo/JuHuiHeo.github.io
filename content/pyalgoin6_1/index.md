@@ -4,8 +4,8 @@ emoji: 🐻‍❄️
 title: "[파이썬알고리즘인터뷰] 6.1 유효한 팰린드롬
 date: '2023-07-13 23:21'
 author: 쭈이
-tags: 파이썬알고리즘인터뷰 python
-categories: python
+tags: 파이썬알고리즘인터뷰 Python
+categories: Python
 ---
 
 

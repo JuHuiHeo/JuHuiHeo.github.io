@@ -4,8 +4,8 @@ emoji: 🐵
 title: "[파이썬알고리즘인터뷰] 6.6 가장 긴 팰린드롬 부분 문자열
 date: '2023-07-13 24:08'
 author: 쭈이
-tags: 파이썬알고리즘인터뷰 python
-categories: python
+tags: 파이썬알고리즘인터뷰 Python
+categories: Python
 ---
 
 

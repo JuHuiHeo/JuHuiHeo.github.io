@@ -1,10 +1,10 @@
 ---
 emoji: 🎠
-title: "[python] max함수와 선택인자(key, default)"
+title: "[Python] max함수와 선택인자(key, default)"
 date: '2023-03-31 17:07'
 author: 쭈이
-tags: python max key default
-categories: python
+tags: Python max key default
+categories: Python
 ---
 
 ## 😍 출처
