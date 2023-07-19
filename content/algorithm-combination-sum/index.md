@@ -1,6 +1,6 @@
 ---
 emoji: 🐥
-title: "[Python] 조합의 합"
+title: "[Algorithm] 조합의 합"
 date: '2022-03-10 12:07'
 author: 쭈이
 tags: leetcode Python Algorithm

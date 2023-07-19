@@ -3,8 +3,8 @@ emoji: ❤️
 title: "[Python] Moviepy 공부하기"
 date: '2022-03-02 16:17'
 author: 쭈이
-tags: Moviepy Python Study
-categories: Study Python
+tags: Moviepy Python
+categories: Python
 ---
 
 ## 🥰 참고자료

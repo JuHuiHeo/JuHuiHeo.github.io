@@ -1,6 +1,6 @@
 ---
 emoji: 👻
-title: "[Python] 멀쩡한 사각형"
+title: "[Algorithm] 멀쩡한 사각형"
 date: '2022-03-17 17:34'
 author: 쭈이
 tags: 프로그래머스 Python Algorithm

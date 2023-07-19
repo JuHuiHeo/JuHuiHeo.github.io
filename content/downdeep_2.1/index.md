@@ -3,8 +3,8 @@ emoji: 🧠
 title: "[밑바닥부터시작하는딥러닝] CHAPTER2.1 퍼셉트론이란?"
 date: '2023-07-18 20:19'
 author: 쭈이
-tags: DeepLearing Python Perceptron
-categories: DeepLearing Python
+tags: DeepLearning Python Perceptron
+categories: DeepLearning 밑바닥부터시작하는딥러닝
 ---
 
 

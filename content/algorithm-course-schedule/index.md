@@ -1,6 +1,6 @@
 ---
 emoji: 🐹
-title: "[Python] 일정 재구성"
+title: "[Algorithm] 일정 재구성"
 date: '2022-03-17 14:00'
 author: 쭈이
 tags: leetcode Python Algorithm
