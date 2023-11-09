@@ -53,7 +53,7 @@ module.exports = {
       },
       {
         date: '2021.03 ~',
-        activity: '서울여자대학교 재학',
+        activity: '서울여자대학교 소프트웨어융합학과 재학',
         links: {
           //post: '/gatsby-starter-zoomkoding-introduction',
           //github: 'https://github.com/JuHuiHeo/JuHuiHeo.github.io',
