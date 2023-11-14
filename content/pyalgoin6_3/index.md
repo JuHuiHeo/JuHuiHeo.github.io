@@ -95,3 +95,7 @@ def reorderLogFi.les(self , logs: List[str]) -> List[str]:
 1) 람다 표현식은 필수다… 람다 표현식 공부해 둘 것!
 
 2) [https://gorokke.tistory.com/38](https://gorokke.tistory.com/38)
+
+```toc
+
+```
