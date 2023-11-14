@@ -14,6 +14,8 @@ categories: 파이썬알고리즘인터뷰
 
 ![Untitled](Untitled.png)
 
+---
+
 ## 😊풀이 1) 리스트로 변환
 
 ```python

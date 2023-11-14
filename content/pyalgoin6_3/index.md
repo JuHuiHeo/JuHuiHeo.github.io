@@ -1,6 +1,6 @@
 ---
 emoji: 🥤
-title: "[파이썬알고리즘인터뷰] 6.2 문자열 뒤집기"
+title: "[파이썬알고리즘인터뷰] 6.3 로그 파일 재정렬"
 date: '2023-07-15 23:21'
 author: 쭈이
 tags: 파이썬알고리즘인터뷰 Python
@@ -18,7 +18,9 @@ categories: 파이썬알고리즘인터뷰
 
 ![Untitled](Untitled.png)
 
-## ❤직접 풀이
+---
+
+## ❤ 직접 풀이
 
 ### 🤍 생각의 흐름
 
@@ -74,6 +76,8 @@ def checkLogs(l):
     return result
 ```
 
+---
+
 ## 😊 파이썬 알고리즘 인터뷰 풀이 1) 람다와 + 연산자를 이용
 
 ```python
@@ -94,7 +98,7 @@ def reorderLogFi.les(self , logs: List[str]) -> List[str]:
 
 1) 람다 표현식은 필수다… 람다 표현식 공부해 둘 것!
 
-2) [https://gorokke.tistory.com/38](https://gorokke.tistory.com/38)
+2) 람다 표현식에 대해 잘 정리되어 있는 블로그 링크를 첨부한다. ([https://gorokke.tistory.com/38](https://gorokke.tistory.com/38))
 
 ```toc
 
