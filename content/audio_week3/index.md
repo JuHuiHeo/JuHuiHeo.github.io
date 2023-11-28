@@ -25,6 +25,8 @@ categories: 오디오딥러닝 논문리뷰
 - `Wav2Vec`은 **다중 합성곱 레이어**로 이루어짐.
 - **노이즈 대조 이진 분류**를 사용함.
 
+---
+
 ## 1️⃣ Introduction
 
 ### ◼ 기존 음성 인식 모델과 Wav2Vec의 차이점
@@ -50,7 +52,7 @@ categories: 오디오딥러닝 논문리뷰
 
 ---
 
-## 2 Pre-training Approach
+## 2️⃣ Pre-training Approach
 
 오디오 신호를 입력으로 받아 특성을 추론하는 임무를 수행.
 
@@ -59,7 +61,7 @@ categories: 오디오딥러닝 논문리뷰
 
 ---
 
-## 2.1 `Wav2Vec` Model
+### 2.1 `Wav2Vec` Model
 
 ![Untitled](Untitled.png)
 
@@ -79,7 +81,7 @@ categories: 오디오딥러닝 논문리뷰
 
 ---
 
-## ◼ `Wav2Vec` 모델 코드 예시
+### ◼ `Wav2Vec` 모델 코드 예시
 
 ```python
 import torch
@@ -97,7 +99,7 @@ c = model.feature_aggregator(z)
 
 ---
 
-## 2.2 Objective
+### 2.2 Objective
 
 ![Untitled](Untitled_2.png)
 
@@ -106,9 +108,9 @@ c = model.feature_aggregator(z)
 
 ---
 
-## 3 Experimental Setup
+## 3️⃣ Experimental Setup
 
-## 3.1 Acoustic Models( `Wav2Vec` 모델 설계(모델 비교))
+### 3.1 Acoustic Models( `Wav2Vec` 모델 설계(모델 비교))
 
 ![Untitled](Untitled_3.png)
 
@@ -120,7 +122,7 @@ SOTA(최고 수준 모델)였던 `Deep Speech 2` 보다 `Wav2Vec` 모델이 성�
 
 ---
 
-## 3.2 Pre-training Models(`Wav2Vec` 모델 설계(데이터 양, 품질))
+### 3.2 Pre-training Models(`Wav2Vec` 모델 설계(데이터 양, 품질))
 
 ![Untitled](Untitled_4.png)
 
@@ -136,7 +138,7 @@ WSJ의 데이터 양보다 Libri의 데이터 양이 더 크다. 위 그래프�
 
 ---
 
-## 4 Results( `Wav2Vec` 모델 테스트 결과(데이터 라벨링))
+### 4 Results( `Wav2Vec` 모델 테스트 결과(데이터 라벨링))
 
 ![Untitled](Untitled_5.png)
 
