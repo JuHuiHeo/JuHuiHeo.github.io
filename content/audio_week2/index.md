@@ -4,7 +4,7 @@ title: "[논문리뷰] SpecAugument 논문 리뷰"
 date: '2023-11-21 15:50'
 author: 쭈이
 tags: audiodeeplearning audiodata paper
-categories: 오디오딥러닝
+categories: 오디오딥러닝 논문리뷰
 ---
 
 
