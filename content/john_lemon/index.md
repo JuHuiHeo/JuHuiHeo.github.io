@@ -1,7 +1,7 @@
 ---
 emoji: 👻
 title: "[Unity] 존 레몬의 공포 체험: 3D 초급자용"
-date: '2023-01-08 20:54'
+date: '2024-01-08 20:54'
 author: 쭈이
 tags: Unity
 categories: Unity
