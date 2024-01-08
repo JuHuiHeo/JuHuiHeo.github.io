@@ -1,4 +1,3 @@
-
 ---
 emoji: 👻
 title: "[Unity] 존 레몬의 공포 체험: 3D 초급자용"
@@ -71,6 +70,7 @@ Unity에서는 두 가지의 좌표계가 존재한다. 첫 번째는 `상대좌
 
 ## ❤ 깃허브 링크
 [▶ 깃허브 링크](https://github.com/JuHuiHeo/John_lemon_3d)
+
 
 ```toc
 
